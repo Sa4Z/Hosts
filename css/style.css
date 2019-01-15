@@ -1,0 +1,517 @@
+@font-face {
+	font-family: font;
+  src: url('../fonts/FontAwesome.otf') format('truetype');
+}
+
+@font-face {
+	font-family: open;
+  src: url('../fonts/open-sans.ttf') format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: opens;
+  src: url('../fonts/open-sans-semibold.ttf') format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: openb;
+  src: url('../fonts/open-sans-bold.ttf') format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: openl;
+  src: url('../fonts/open-sans-light.ttf') format('truetype'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: opene;
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'); /* Legacy iOS */
+}
+
+#corrector {
+	background: url(../img/corrector.png) 50% 0 no-repeat;
+	opacity: 0.3;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0 auto;
+	width: 1970px;
+	height: 3254px;
+	
+	z-index: 20;
+	/* display: none; */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,  blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.conteiner {
+	width: 1970px;
+	margin: 0px auto;
+	font-family: open;
+}
+
+
+.cental-column {
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.header .host {
+	font-family: opene;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-top: 32px;
+}
+
+.header .host b {
+	margin-left: 8px;
+}
+
+.header ul {
+	display: flex;
+    margin-top: 27px;
+    padding: 13px 0 16px 82px;
+    border-top: 1px solid #e1e9f2;
+    border-bottom: 1px solid #e1e9f2;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+.header .one {
+	border-right: 1px solid #e1e9f2;
+	padding-right: 17px;
+}
+
+.header .two {
+	padding-left: 16px;
+	border-right: 1px solid #e1e9f2;
+	padding-right: 15px;
+}
+
+.header .three {
+	padding-left: 18px;
+}
+
+.main-menu {
+	margin-top: 26px;
+	background-color: #ff8261;
+}
+
+.main-menu ul {
+	display: flex;
+	color: #fff;
+	font-size: 13px;
+}
+
+.main-menu li {
+	padding: 23px 23px 21px 28px;
+	letter-spacing: 0.7px;
+}
+
+.main-menu .one {
+	padding: 23px 33px 21px 36px;
+	letter-spacing: 0;
+}
+
+.main-menu .two {
+	padding: 23px 23px 21px 20px;
+}
+
+.main-menu .last {
+	padding: 23px 23px 21px 28px;
+	letter-spacing: 1px;	
+}
+
+.slader {
+	height: 570px;
+	background-color: #000;
+}
+
+.domain .fa-search {
+	margin-top: 38px;
+	font-size: 26px;
+	color: #fb6b45;
+}
+
+.domain .first {
+	margin-top: 10px;
+	font-size: 19px;
+	color: #859aa1;
+}
+
+.domain .second {
+	font-family: opene;
+	margin-top: 3px;
+	font-size: 28px;
+	letter-spacing: 0.6px;
+}
+
+.domain .enter {
+	padding: 0;
+}
+
+.domain .enter .form-controls {
+	margin: 72px 0 0 -24px;
+	border: 1px solid #dfeef3;
+	padding: 17px 0 19px 23px;
+	letter-spacing: -1.3px;
+	width: 428px;
+}
+
+.domain .year {
+	margin-top: 72px;
+	margin-left: 12px;
+	border: 1px solid #dfeef3;
+	padding: 17px 0px 19px 21px;
+	width: 162px;
+	letter-spacing: -0.6px;
+	font-size: 15px;
+	color: #a6afbb;
+	background-color: #fff;
+}
+
+.domain .year i {
+	margin-left: 21px;
+}
+
+.domain .com {
+	margin-top: 72px;
+	margin-left: -8px;
+	border: 1px solid #dfeef3;
+	padding: 17px 0px 19px 21px;
+	width: 162px;
+	letter-spacing: -0.6px;
+	font-size: 15px;
+	color: #a6afbb;
+	background-color: #fff;
+}
+
+.domain .com i {
+	margin-left: 83px;
+}
+
+.domain .search {
+	margin-top: 72px;
+	margin-left: -31px;
+	border: 1px solid #ff8261;
+	padding: 17px 0px 18px 68px;
+	width: 196px;
+	letter-spacing: -0.6px;
+	font-size: 16px;
+	color: #fff;
+	font-family: openb;
+	background-color: #ff8261;
+	margin-bottom: 72px;
+}
+
+.main-domain {
+	background-color: #e7f4f8;
+}
+
+.polosa {
+	margin-top: 72px;
+	width: 21px;
+	height: 3px;
+	background-color: #fb6b45;
+}
+
+.function .our {
+	margin-top: 10px;
+	font-size: 17px;
+	color: #859aa1;
+}
+
+.function .bene {
+	margin-top: 3px;
+	font-size: 28px;
+	font-family: opene;
+	letter-spacing: 0.3px;
+}
+
+.function > div >div {
+	display: flex;
+}
+
+.function .text {
+	margin-left: 27px;
+}
+
+.function .textone {
+	font-family: opene;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;	
+}
+
+.function .texttwo {
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 24px;
+	color: #859aa1;	
+}
+
+.function .tripoloski {
+	margin-top: 28px;
+}
+
+.function .tripoloski .text {
+	margin-top: 12px;
+}
+
+.function .messeg {
+	margin-top: 40px;
+}
+
+.function .messeg img {
+	margin-left: -7px;
+	margin-top: 2px;	
+}
+
+.function .comp {
+	margin-top: 39px;
+}
+
+.function .koleso {
+	margin-top: 64px;
+}
+
+.function .koleso img {
+	margin-top: -9px;
+}
+
+.function .mail {
+	margin-top: 64px;
+}
+
+.function .zamok {
+	margin-top: 64px;
+	margin-bottom: 105px;
+}
+
+.function .zamok img {
+	margin-left: 9px;
+	margin-top: -5px;
+}
+
+.function .zamok .text {
+	margin-left: 34px;
+}
+
+.zeltiy {
+	height: 409px;
+	background-color: #fffbde;
+}
+
+.zeltiy .polosa {
+	margin-top: 86px;
+	height: 2px;
+}
+
+.zeltiy .now {
+	margin-top: 10px;
+	letter-spacing: 1.7px;
+}
+ 
+ .zeltiy .what {
+	 margin-top: 5px;
+	font-family: opene;
+	font-size: 29px;
+	text-transform: uppercase;
+ }
+ 
+.ramka {
+	margin-top: 32px;
+	background-color: #fff;
+}
+
+.ramka .get {
+	padding: 23px 0 0 23px;
+	font-size: 14px;
+	font-family: opene;
+	color: #97947f;
+}
+
+.procent b {
+	margin-left: 25px;
+	font-family: opene;
+	color: #ff8261;
+	font-size: 47px;
+	letter-spacing: 1.5px;
+}
+
+.procent i {
+	margin-left: 14px;
+	font-family: opene;
+	color: #52cbf8;
+	font-size: 47px;
+	letter-spacing: 1.5px;	
+}
+
+.procent h4 {
+	margin-left: 245px;
+	margin-top: -42px;
+	text-transform: uppercase;	
+}
+
+.procent h5 {
+	margin-left: 247px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-family: opene;
+	letter-spacing: 1.3px;
+	padding-bottom: 27px;
+}
+
+.zeltiy .our {
+	margin-top: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;	
+}
+
+.zeltiy .features {
+	margin-top: 6px;
+	text-transform: uppercase;
+	font-family: opene;
+	font-size: 27px;
+	letter-spacing: 1.1px;	
+}
+
+.zeltiy  ul {
+	margin-top: 28px;
+}
+
+.zeltiy li {
+	font-size: 14px;
+	margin-bottom: 22px;	
+}
+
+.zeltiy li i {
+	font-size: 13px;
+	margin-right: 9px;	
+}
+
+.zeltiy .second ul {
+	margin-top: 175px;
+}
+
+.zeltiy .view {
+	margin-top: 243px;
+	padding: 21px 0 20px 48px;
+	background-color: #ff8261;
+	color: #fff;
+	letter-spacing: 0.8px;
+	font-size: 15px;	
+}
+
+.beliy .polosa {
+	margin-top: 92px;
+}
+
+.beliy .our {
+	margin-top: 9px;
+	letter-spacing: 1.7px;
+}
+
+.beliy .host {
+	margin-top: 5px;
+	font-family: opene;
+	font-size: 29px;
+	text-transform: uppercase;
+}
+
+.beliy  .rama {
+	border: 1px solid #e1eff4;
+	margin-top: 27px;
+	text-align: center;
+}
+
+.beliy  .rama .dol {
+	margin-top: 23px;
+	font-family: opene;
+	font-size: 47px;
+	margin-left: -14px
+}
+
+.beliy  .rama .per {
+	font-size: 14px;
+	letter-spacing: 1.7px;
+	margin-left: -14px;
+}
+
+.beliy  .rama  .plan {
+	margin-top: 26px;
+	padding: 11px 0px 12px 0px;
+	background-color: #52cbf8;
+	width: 183px;
+	margin-left: 39px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.beliy  .rama  ul {
+	margin-top: 53px
+}
+
+.beliy  .rama  li {
+	font-size: 14px;
+	margin-bottom: 26px;
+	letter-spacing: -0.3px;
+}
+
+.beliy  .rama .sign {
+	margin-top: 34px;
+	width: 114px;
+	background-color: #ff8261;
+	margin-left: 73px;
+	padding: 15px 0 15px 0px;
+	color: #fff;
+	font-size: 12px;
+	font-family: opene;
+	letter-spacing: 0.6px;
+	margin-bottom: 23px;
+}
